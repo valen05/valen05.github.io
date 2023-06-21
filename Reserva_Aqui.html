@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva</title>
+  <link rel="stylesheet" href="estilos/estilos.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+          <div class="contenido-navegacion contenedor">
+            <nav class="navegacion ocultar">
+              <a href="index.html">Inicio</a>
+              <a href="Visitanos.html">Visitanos</a>
+              <a href="Domicilios.html">Domicilios</a>
+              <a href="Experiencia.html">Experiencia</a>
+              <a href="Galeria.html">Galería</a>
+            </nav>
+            <div class="hamburguesa">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="logo">
+              <img class="logo-storia" src="imagenes/logo-storia.png" width="60">
+            </div>
+            <li id="nav-main-reserva" class="btn-header">RESERVA AQUÍ</a></li>
+          </div>
+        </div>
+      </header>
+
+      <div class="wrap-reserva">
+        <div class="wrap-texto">
+          <h1>RESERVA UNA MESA</h1>
+        </div>
+      </div>
+
+      <div id="reservation" class="reservations-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="form-reservations-box">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+
+                        </div>
+                        <p>Por favor llena los campos requeridos</p>
+                        <p>¡Gracias!</p>
+
+                        <form id="contact-form" method="post" class="reservations-box" name="contactform" href="Gracias.html">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-box">
+                                    <input type="text" name="form_name" id="form_name" placeholder="Nombre" required="Requerido." data-error="Es requerido un nombre.">
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-box">
+                                    <input type="email" name="email" id="email" placeholder="E-Mail ID" required="required" data-error="E-mail id is required.">
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-box">
+                                    <input type="text" name="phone" id="phone" placeholder="Número de contacto">
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-box">
+                                    <select name="no_of_persons" id="no_of_persons" class="selectpicker">
+                                        <option selected disabled>No. de personas</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-box">
+                                    <input type="text" name="date-picker" id="date-picker" placeholder="Día" required="required" data-error="Date is required." />
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-box">
+                                    <input type="text" name="time-picker" id="time-picker" placeholder="Hora" required="required" data-error="Time is required." />
+                                </div>
+                            </div>
+                            <!-- end col -->
+                                                        <!-- end col -->
+                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                          <div class="form-box">
+                                                              <select name="occasion" id="occasion" class="selectpicker">
+                                                                  <option selected disabled>Ocasión</option>
+                                                                  <option>Propuesta de matrimonio</option>
+                                                                  <option>Cumpleaños</option>
+                                                                  <option>Aniversario</option>
+                                                                  <option>Cita</option>
+                                                              </select>
+                                                          </div>
+                                                      </div>
+                                                      <!-- end col -->
+
+                                                      
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="reserve-book-btn text-center">
+                                <button class="hvr-underline-from-center" type="submit" value="SEND" id="submit" onclick="redirigirPagina()">RESERVAR MI MESA</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <footer>
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="index.html">
+                    <h1 class="logo-footer">STORIA D' 
+                      AMORE</h1>
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2>SOBRE EL RESTAURANTE</h2>
+              <p>Nuestras sedes</p>
+              <p>Términos y condiciones</p>
+              <p>Preguntas frecuentas</p>
+          </div>
+          <div class="box">
+              <h2>SIGUENOS</h2>
+              <div class="red-social">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2023 <b>Storia D' Amore</b> - Todos los Derechos Reservados.</small>
+      </div>
+
+  </footer>
+  <script src="js/app.js" ></script>
+</body>
+</html>
